@@ -72,7 +72,6 @@ on property:vendor.post_boot.parsed=1
     write /dev/cpuset/foreground/cpus 0-2,5-7
     write /dev/cpuset/background/cpus 0-3
     write /dev/cpuset/system-background/cpus 0-3
-    write /dev/cpuset/restricted/cpus 0-3
 
     # Setup cpu boosting
     write /sys/module/cpu_boost/parameters/input_boost_freq "0:1305600 4:1401600"

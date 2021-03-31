@@ -93,6 +93,7 @@ on property:vendor.post_boot.parsed=1
     # Setup scheduler tunables
     write /proc/sys/kernel/sched_upmigrate 85
     write /proc/sys/kernel/sched_downmigrate 75
+    write /proc/sys/kernel/sched_child_runs_first 1
 
     # Sched Tunables
     write /proc/sys/kernel/sched_autogroup_enabled 0

@@ -7,3 +7,5 @@ set_prop(vendor_init, vendor_video_prop)
 # Netflix
 set_prop(vendor_init, vendor_netflix_prop)
 set_prop(vendor_init, vendor_video_prop)
+
+set_prop(vendor_init, vendor_ssr_prop)

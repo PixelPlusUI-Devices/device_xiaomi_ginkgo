@@ -1535,7 +1535,7 @@ vendor/lib64/libwvhidl.so
 vendor/lib64/mediadrm/libwvdrmengine.so
 
 # DRM - Widevine L1 - from ginkgo MIUI V12.0.2.0.QCOMIXM
-vendor/lib64/liboemcrypto.so|78a0009bc53e9f4f37cea2974f960fb0253e2328
+vendor/lib64/liboemcrypto.so|4bc107c69108c71b53d8a04c9f4d4e3f7ece18e7
 modem/image/widevine.b00:vendor/firmware/widevine.b00|02440d68e90e2606978d705a6de0aca576be6e66
 modem/image/widevine.b01:vendor/firmware/widevine.b01|5d728eb86180d82a6a8b6a5b124e995f6b9841c2
 modem/image/widevine.b02:vendor/firmware/widevine.b02|0c6041480787fff2f7f79782bc180c5e0e391126

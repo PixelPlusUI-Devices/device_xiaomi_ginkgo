@@ -2393,11 +2393,11 @@ vendor/etc/init/vendor.qti.hardware.soter@1.0-service.rc
 vendor/lib64/hw/vendor.qti.hardware.soter@1.0-impl.so
 vendor/lib64/vendor.qti.hardware.soter@1.0.so
 
-# Time services - from LA.UM.9.11.r1-03900-NICOBAR.0
--vendor/app/TimeService/TimeService.apk|1a5f39aa2969feee50ff81ec870b5e2669ae515e
-vendor/bin/time_daemon|ccb27b457c88ea770da20cbdf25d321e7da6bda0
+# Time services - from laurel_sprout V12.0.11.0.RFQMIXM
+-vendor/app/TimeService/TimeService.apk|7d176a69b270006a511a3c30f544db98a0ccaa37
+vendor/bin/time_daemon|e62d164b8c8b30743837896d4c5e8bca39b364e6
 vendor/etc/init/init.time_daemon.rc|b253ca2a498757e14e1d7a051bf504ae09218f51
-vendor/lib64/libtime_genoff.so|e0263a4b049ba43414aee74a952f437b813fd54e
+vendor/lib64/libtime_genoff.so|3f57de1aeb7aa113a0a579cebed85ab4405b9b49
 
 # Thermal - from laurel_sprout V12.0.11.0.RFQMIXM
 vendor/bin/thermal-engine|c0f7dc730227266d9fbe01a4c730a1ee91a60254

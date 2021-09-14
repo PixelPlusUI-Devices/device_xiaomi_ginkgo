@@ -9,3 +9,4 @@ set_prop(vendor_init, vendor_netflix_prop)
 set_prop(vendor_init, vendor_video_prop)
 
 set_prop(vendor_init, vendor_ssr_prop)
+set_prop(vendor_init, vendor_time_service_prop)

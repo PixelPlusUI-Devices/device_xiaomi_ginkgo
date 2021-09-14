@@ -73,11 +73,6 @@ on late-fs
     exec_start wait_for_keymaster
     mount_all /vendor/etc/fstab.qcom --late
 
-service sec_nvm /vendor/bin/sec_nvm
-    class core
-    user system
-    group system
-
 on post-fs-data
     mkdir /data/vendor/touchpad 0775 system system
     mkdir /data/vendor/hbtp 0750 system system
@@ -217,11 +212,6 @@ service charge_logger /vendor/bin/charge_logger
 on property:sys.boot_completed=1
     mkdir /data/vendor/charge_logger 0771 system system
     start charge_logger
-
-service spdaemon /vendor/bin/spdaemon
-    class core
-    user system
-    group system
 
 #service mpdecision /system/vendor/bin/mpdecision --avg_comp
 #   user root
